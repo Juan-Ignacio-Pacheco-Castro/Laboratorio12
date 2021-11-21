@@ -1,7 +1,52 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Grid system";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<div class="jumbotron">
+    <h1>@ViewBag.Title</h1>
+</div>
 
-<p>Use this area to provide additional information.</p>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="~/Content/GridSystem.css" />
+</head>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p>1 of 2</p>
+        </div>
+        <div class="col">
+            <p>2 of 2</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>1 of 3</p>
+        </div>
+        <div class="col">
+            <p>2 of 3</p>
+        </div>
+        <div class="col">
+            <p>3 of 3</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>1 of 6</p>
+        </div>
+        <div class="col">
+            <p>2 of 6</p>
+        </div>
+        <div class="col">
+            <p>3 of 6</p>
+        </div>
+        <div class="col">
+            <p>4 of 6</p>
+        </div>
+        <div class="col">
+            <p>5 of 6</p>
+        </div>
+        <div class="col">
+            <p>6 of 6</p>
+        </div>
+    </div>
+</div>
